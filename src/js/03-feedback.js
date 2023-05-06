@@ -61,10 +61,3 @@ function populateForm() {
     refs.textarea.value = formData.message;
   }
 }
-
-
-
-
-
-
-
