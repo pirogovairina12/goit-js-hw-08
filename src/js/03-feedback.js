@@ -34,7 +34,7 @@ function onFormSubmit(evt) {
 }
 
 
-function onTextareaInput(evt) {
+function onTextareaInput() {
   const email = refs.input.value;
   const message = refs.textarea.value;
   const data = {email, message};
