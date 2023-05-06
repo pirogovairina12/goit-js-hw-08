@@ -33,7 +33,6 @@ function onFormSubmit(evt) {
   localStorage.removeItem(STORAGE_KEY);
 }
 
-
 function onTextareaInput() {
   const email = refs.input.value;
   const message = refs.textarea.value;
