@@ -43,7 +43,6 @@ function onTextareaInput(evt) {
   console.log(data)
 }
 
-
 function populateTextarea() {
   const savedMessage = localStorage.getItem(STORAGE_KEY);
   const savedEmail = localStorage.getItem(STORAGE_KEY);
